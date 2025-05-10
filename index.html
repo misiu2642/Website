@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moja Prosta Strona</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Moja Złożona Strona</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Witaj na mojej stronie!</h1>
-    <p>To jest przykładowy, prosty plik HTML.</p>
+    <header>
+        <h1>Witaj na mojej stronie!</h1>
+        <nav>
+            <a href="index.html">Strona główna</a> |
+            <a href="about.html">O mnie</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>O projekcie</h2>
+            <p>To jest bardziej rozbudowana strona z CSS i JavaScript.</p>
+            <button id="clickMeBtn">Kliknij mnie</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Moje Imię</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
